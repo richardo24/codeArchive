@@ -26,3 +26,4 @@ bool IsApiQueryWarning(LogEvent e)
                 model.Description.ChangeValue(string.Empty);
                 model.BottomDescription.ChangeValue(string.Empty);
             }
+//yes
