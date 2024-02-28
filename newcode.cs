@@ -15,7 +15,7 @@ bool IsApiQueryWarning(LogEvent e)
 
     return false;
 }
-
+//england
  if (_seoSettings.CanonicalUrlsEnabled)
             {
                 model.CanonicalUrl = Url.RouteUrl("Category", new { model.SeName }, Request.Scheme);
