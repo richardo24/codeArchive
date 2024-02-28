@@ -27,3 +27,7 @@ bool IsApiQueryWarning(LogEvent e)
                 model.BottomDescription.ChangeValue(string.Empty);
             }
 //yes
+   if (_catalogSettings.CategoryBreadcrumbEnabled)
+            {
+                await _helper.GetBreadcrumbAsync(_breadcrumb, ControllerContext);
+            }
